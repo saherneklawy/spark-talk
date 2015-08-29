@@ -39,6 +39,11 @@
 
 - Developement
 - Production
+    - Do not forget:
+```python
+from pyspark import SparkContext
+sc = SparkContext(appName="My app name")
+```
     - Single production run
     - recurring jobs
 - Hosting
@@ -90,3 +95,4 @@
 
 - How to install vagrant
 - jupyter
+- http://spark.apache.org/docs/latest/api/python/index.html
