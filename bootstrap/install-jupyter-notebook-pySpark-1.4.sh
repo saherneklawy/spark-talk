@@ -55,8 +55,7 @@ fi
 
 
 
-sudo yum-config-manager --add-repo http://s3tools.org/repo/RHEL_6/s3tools.repo
-yum install -y s3cmd
+sudo pip install s3cmd
 
 
 ## running SparkR right
