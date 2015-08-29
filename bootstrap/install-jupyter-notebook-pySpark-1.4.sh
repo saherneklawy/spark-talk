@@ -54,6 +54,11 @@ nohup pyspark --master yarn-client > /mnt/var/log/python_notebook.log &
 fi
 
 
+
+sudo yum-config-manager --add-repo http://s3tools.org/repo/RHEL_6/s3tools.repo
+yum install -y s3cmd
+
+
 ## running SparkR right
 ## add this to ~/.Rpofile
 #Sys.setenv(SPARK_HOME="/usr/lib/spark")
