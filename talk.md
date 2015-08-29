@@ -93,6 +93,6 @@ sc = SparkContext(appName="My app name")
 
 ## Resources
 
-- How to install vagrant
-- jupyter
+- http://spark.apache.org/docs/latest/sql-programming-guide.html
 - http://spark.apache.org/docs/latest/api/python/index.html
+- jupyter
