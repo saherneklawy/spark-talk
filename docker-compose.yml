@@ -1,0 +1,9 @@
+pyspark:
+  build: .
+  net: host
+  ports:
+    - 8888:8888
+    - 8080:8080
+  volumes:
+    - .:/notebooks
+  #command: /etc/bootstrap.sh && /usr/local/spark/sbin/start-master.sh && IPYTHON_OPTS="notebook --no-browser --ip=0.0.0.0 --port 8888" pyspark
