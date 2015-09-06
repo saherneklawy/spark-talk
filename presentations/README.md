@@ -93,6 +93,9 @@ sc = SparkContext(appName="My app name")
 
 ## Resources
 
-- http://spark.apache.org/docs/latest/sql-programming-guide.html
-- http://spark.apache.org/docs/latest/api/python/index.html
-- jupyter
+- [Spark Programming Guide](http://spark.apache.org/docs/latest/sql-programming-guide.html)
+- [PySpark documentaion](http://spark.apache.org/docs/latest/api/python/index.html)
+- edX courses for Spark:
+  1. https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/info
+  2. https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/info
+- [web notebooks by jupyter](https://jupyter.org/)
