@@ -4,6 +4,10 @@ pyspark:
   ports:
     - 8888:8888
     - 8080:8080
+    - 8042:8042
   volumes:
-    - ../nootbooks:/notebooks
+    - ../nootbooks:/home/jovyan/work
   #command: /etc/bootstrap.sh && /usr/local/spark/sbin/start-master.sh && IPYTHON_OPTS="notebook --no-browser --ip=0.0.0.0 --port 8888" pyspark
+  #
+  #
+#docker run -it -p 8088:8088 -p 8042:8042 -h sandbox sequenceiq/spark:1.4.0 bash
