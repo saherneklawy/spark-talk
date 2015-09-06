@@ -47,10 +47,10 @@ sudo PATH=$PATH:/usr/local/bin R -e "install.packages(c('rzmq','repr','IRkernel'
 
 #starting ipython notebook with pyspark interactive support.
 export IPYTHON_HOME=/home/hadoop
-export PATH=$PATH:$IPYTHON_HOME/bin
-export IPYTHON_OPTS="notebook --no-browser"
+export PATH=$PATH:$IPYTHON_HOME/bin:/usr/lib/spark/bin:/usr/local/bin
+export IPYTHON_OPTS="notebook --no-browser --port 8192"
 export MASTER=yarn-client
-nohup pyspark --master yarn-client > /mnt/var/log/python_notebook.log &
+nohup /usr/lib/spark/bin/pyspark --master yarn-client > /mnt/var/log/python_notebook.log &
 fi
 
 
