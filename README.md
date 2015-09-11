@@ -11,8 +11,8 @@ The content of this repo is as follows:
 To learn more about Spark, here are favourite sources:
 
 
-- [Spark Programming Guide](http://spark.apache.org/docs/latest/sql-programming-guide.html)
-- [PySpark documentaion](http://spark.apache.org/docs/latest/api/python/index.html)
+- [Spark Programming Guide](http://spark.apache.org/docs/1.4.1/sql-programming-guide.html)
+- [PySpark documentaion](http://spark.apache.org/docs/1.4.1/api/python/index.html)
 - edX courses for Spark:
   1. https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/info
   2. https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/info
