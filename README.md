@@ -1,7 +1,7 @@
 This repo is is intended as a starter guide for using pyspark in development and production. It is initially created for the Cairo Data Science Meetup [introductory talk to spark](http://www.meetup.com/Cairo-Data-Science-Meetup/events/224737198/)
 
 
-The content of this repo is as follows:
+The content of this repo is as follows (note that vms and boostrap folders contain their respective readme files):
 
 - [presentations](presentations) contains the slides for the talk, and the script for the content that was presented in the meetup.
 - [vms](vms) contains the configuration files and descritpion of how to run a Spark virtual machine locally using vagrant.
