@@ -1,5 +1,23 @@
-## Seting UP VM
+# Seting UP VM
+
+## Using Docker
+
+To install docker and docker compose follow this guide: https://docs.docker.com/compose/install/
+
+To run the stack, inside the [vms](vms) directory use the following commands:
+
+- `docker-compose build` to build the containers
+- `docker-compose up -d` to start/restart the notebook server
+- `docker-compose stop` to stop the notebook server
+
+The python notebooks can be accessed from [http://localhost:8888](http://localhost:8888).
+Note that to add your own notebooks, add them to the [notebooks](notebooks) directory of this repository.
+
+
+## Using Vagrant
+
 source: BerkeleyX EDX course CS100.1x
+**Note that the vagrant image uses Spark 1.3**
 
 ### Installing Virtual Box:
 
@@ -28,3 +46,5 @@ source: BerkeleyX EDX course CS100.1x
 - `vagrant ssh` to ssh into the VM
 
 Note that the location from which you run vagrant is accessible inside the VM as `/vagrant`
+
+The python notebooks can be accessed from [http://localhost:8001](http://localhost:8001).
